@@ -14,10 +14,11 @@ import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.bean.EmployeeBean;
 import com.bean.SkillsBean;
-
+@CrossOrigin
 @Repository
 public class EmployeeDao {
 

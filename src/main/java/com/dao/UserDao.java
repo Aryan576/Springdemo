@@ -3,9 +3,10 @@ package com.dao;
 import java.util.ArrayList;
 
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.bean.UserBean;
-
+@CrossOrigin
 @Repository
 public class UserDao {
 
